@@ -40,7 +40,7 @@ assets
 <key>CFBundleLocalizations</key>
 <array>
    <string>en</string>
-   <string>ko</string>
+   <string>es</string>
 </array>
 ```
 
