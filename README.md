@@ -67,7 +67,7 @@ void main() async {
   runApp(
     Phoenix(
       child: EasyLocalization(
-        supportedLocales: const [en, ko], 
+        supportedLocales: const [en, es], 
         path: 'assets/langs', 
         fallbackLocale: en, 
         child: const MyApp(), 
@@ -181,7 +181,7 @@ await context.setLocale(locale);
 
 ```dart
 // en : Simple Example
-// ko : Ejemplo sencillo
+// es : Ejemplo sencillo
 const Text('appBar').tr(),
 ```
 
