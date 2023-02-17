@@ -12,8 +12,8 @@
 
 ```yaml
 dependencies:
-  easy_localization: ^3.0.0 # 현지화
-  flutter_phoenix: ^1.0.0  # 앱 재시작
+  easy_localization: ^3.0.0
+  flutter_phoenix: ^1.0.0
 
 flutter:
   assets:
@@ -180,8 +180,8 @@ await context.setLocale(locale);
 ```
 
 ```dart
-// en : Localization Example
-// ko : Localization 예제
+// en : Simple Example
+// ko : Ejemplo sencillo
 const Text('appBar').tr(),
 ```
 
